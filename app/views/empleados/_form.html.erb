@@ -1,0 +1,92 @@
+<%= form_for @empleado, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :NumEmpleado, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :NumEmpleado, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :Curp, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :Curp, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :TipoRegimen, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :TipoRegimen, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :NumSeguridadSocial, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :NumSeguridadSocial, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :Departamento_id, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :Departamento_id, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :Banco, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :Banco, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :FechaInicioRelLaboral, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.date_select :FechaInicioRelLaboral, :class => 'date_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :Puesto, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :Puesto, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :TipoContrato, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :TipoContrato, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :TipoJornada, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :TipoJornada, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :PeriodicidadPago, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :PeriodicidadPago, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :SalarioBaseCotApor, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :SalarioBaseCotApor, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :RiesgoPuesto, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :RiesgoPuesto, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :SalarioDiarioIntegrado, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :SalarioDiarioIntegrado, :class => 'text_field' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                empleados_path, :class => 'btn' %>
+  </div>
+<% end %>

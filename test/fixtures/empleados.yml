@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  NumEmpleado: MyString
+  Curp: MyString
+  TipoRegimen: MyString
+  NumSeguridadSocial: MyString
+  Departamento: 
+  Banco: MyString
+  FechaInicioRelLaboral: 2013-12-17
+  Puesto: MyString
+  TipoContrato: MyString
+  TipoJornada: MyString
+  PeriodicidadPago: MyString
+  SalarioBaseCotApor: MyString
+  RiesgoPuesto: MyString
+  SalarioDiarioIntegrado: 9.99
+
+two:
+  NumEmpleado: MyString
+  Curp: MyString
+  TipoRegimen: MyString
+  NumSeguridadSocial: MyString
+  Departamento: 
+  Banco: MyString
+  FechaInicioRelLaboral: 2013-12-17
+  Puesto: MyString
+  TipoContrato: MyString
+  TipoJornada: MyString
+  PeriodicidadPago: MyString
+  SalarioBaseCotApor: MyString
+  RiesgoPuesto: MyString
+  SalarioDiarioIntegrado: 9.99
